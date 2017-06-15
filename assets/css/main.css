@@ -3170,7 +3170,8 @@
 
 		.products-row {
 			width: 80em;
-			height: 38em;
+			/*height: 38em;*/
+			height: calc(80em *0.3629);
 		}
 
 		.products-row > * {
@@ -3184,15 +3185,16 @@
 			overflow: hidden;
 
 		}
-
+        /*modify*/
 		.product1 {
 			background-color: #666;
-			background-image: url("../../images/image01.jpg");
-			background-position: top left,						center center;
-			background-repeat: repeat,							no-repeat;
-			background-size: auto,							cover;
+			background: url("../../images/product_eagle_eye.png") no-repeat;
+			background-position: top left;
+			background-size: 100% 100%;
+			width: 100%;
+			height:calc(width*(900/2480)) ;
 			color: #000;
-			padding: 4em 53em 22em 6em;
+			/*padding: 4em 53em 22em 6em;*/
 			text-align: left;
 			margin: 4em 0 1em 0;
 		}
