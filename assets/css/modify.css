@@ -1,3 +1,6 @@
+body{
+    background: #F7F7F7;
+}
 
 .icon.major.modify-icon{
     border-radius: 0;
@@ -18,32 +21,103 @@
     background: url("../../images/icon_risk.png")  no-repeat center;
     background-size:80% ;
 }
-
+/*may delete begin*/
 .product1{
-    width: 58.667em;
+    /*width: 58.667em;*/
     height: calc(58.667em*(900/2480));
     padding: 0em;
 }
-/*.content_container{*/
-    /*position: relative;*/
-    /*float: left;*/
-    /*top: 2.389em;*/
-    /*left: 5.086em;*/
-    /*clear: both;*/
-/*}*/
+.content_container{
+    position: relative;
+    float: left;
+    top: 2.389em;
+    left: 5.086em;
+    clear: both;
+}
 .products-row span {
     margin-left: .568em;
     overflow: hidden;
 }
-.product2,.product3{
-    width: 29em;
-    height: calc(29em*(900/1229));
-    background-size: 100% auto;
+/*.product2,.product3{*/
+    /*display: inline-block;*/
+    /*width: 29em;*/
+    /*height: calc(29em*(900/1229));*/
+    /*background-size: 100% auto;*/
+    /*padding: 0em;*/
+/*}*/
+
+/*deal with the div invisible problem caused by float*/
+.products-row{
+    overflow: hidden;
+    zoom: 1;
+}
+
+.products-row span{
+    /*vertical-align: text-bottom;*/
+}
+
+#products{
+    margin-bottom: 5em;
+}
+
+.no-padding{
+    padding: 0;
+}
+.box.features .features-row #padding_product3:before{
+    margin-left: 0em;
+}
+.cover_padding_bug{
+    background: #f7f7f7;
+}
+.product2_new{
+    background-image: url("../../images/image02.jpg");
+}
+.product3_new {
+    background-image: url("../../images/image03.jpg");
+}
+.product2_new,.product3_new{
+    background-position: top left, center center;
+    background-repeat:  no-repeat;
+    background-size: 100% 100%;
+    text-align: right;
+}
+#padding_product2{
+    padding: 3em 2em 5em 0;
+}
+#padding_product3{
+    padding: 3em 2em 9.3em 0;
+}
+#products{
+    color: #121212;
+}
+#solutions{
+    background: #FFFFFF;
+    padding-bottom: 3em;
+    color:#FFFFFF;
+}
+#solutions h3{
+    color: #FFFFFF;
+}
+#solutions .box{
+    padding: 0em;
+    margin-bottom: 0em;
+}
+
+#solutions .title{
+    margin-bottom: 3em;
+}
+#solutions .title h1{
+    margin-bottom: 0em;
+}
+
+#solution1{
+    background: url("../../images/solution_1.png") 100% 100% no-repeat;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#solution_1{
     padding: 0em;
 }
-/*.content_container2{*/
-    /*position: relative;*/
-    /*float: right;*/
-    /*right: 2em;*/
-    /*top:5em;*/
-/*}*/
+#solution_2{
+    /*padding: 0em;*/
+}
