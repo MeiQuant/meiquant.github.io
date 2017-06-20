@@ -110,14 +110,64 @@ body{
     margin-bottom: 0em;
 }
 
-#solution1{
-    background: url("../../images/solution_1.png") 100% 100% no-repeat;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
 #solution_1{
-    padding: 0em;
+    background-image: url("../../images/solution_1.png");
+    background-size: 100% 100%;
+}
+
+.solution-box{
+    height: 20em;
+    padding-top: 7em;
 }
 #solution_2{
-    /*padding: 0em;*/
+    background-image: url("../../images/solution_2.png");
+    background-size: 100% 100%;
+}
+#solution_3{
+    background-image: url("../../images/solution_3.png");
+    background-size: 100% 100%;
+}
+#solution_4{
+    background-image: url("../../images/solution_4.png");
+    background-size: 100% 100%;
+}
+#solutions .box section{
+    padding: 0em;
+}
+#solutions .box.features .features-row section:nth-child(2n):before{
+    margin-left: 0em;
+    width: 5px;
+    background: #FFFFFF;
+}
+#solutions .box.features .features-row {
+    border-top: solid 5px #FFFFFF;
+}
+/*#strengths .divide{*/
+    /*background: gray;*/
+    /*padding: 3px;*/
+/*}*/
+/*#strengths .strength_inner{*/
+    /*background: white;*/
+/*}*/
+#strengths .row{
+    margin-left: 0;
+}
+#strengths .box{
+    padding: 0em;
+}
+#strengths .icon.major.modify-data{
+    background: url("../../images/advantage_data.png")  no-repeat center;
+    background-size:80% ;
+}
+#strengths .icon.major.modify-handle{
+    background: url("../../images/advantage_handle.png")  no-repeat center;
+    background-size:80% ;
+}
+#strengths .icon.major.modify-source{
+    background: url("../../images/advantage_source.png")  no-repeat center;
+    background-size:80% ;
+}
+#strengths .icon.major.modify-team{
+    background: url("../../images/advantage_team.png")  no-repeat center;
+    background-size:80% ;
 }
