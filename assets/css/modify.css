@@ -142,15 +142,13 @@ body{
 #solutions .box.features .features-row {
     border-top: solid 5px #FFFFFF;
 }
-/*#strengths .divide{*/
-    /*background: gray;*/
-    /*padding: 3px;*/
-/*}*/
-/*#strengths .strength_inner{*/
-    /*background: white;*/
-/*}*/
+
 #strengths .row{
-    margin-left: 0;
+    background: #f7f7f7;
+}
+.strength_inner{
+    background: #FFFFFF;
+    padding: 3em 1em;
 }
 #strengths .box{
     padding: 0em;
@@ -170,4 +168,62 @@ body{
 #strengths .icon.major.modify-team{
     background: url("../../images/advantage_team.png")  no-repeat center;
     background-size:80% ;
+}
+/*调整3／12 间距*/
+@media screen and (max-width: 1280px){
+    .row > * {
+        padding: 0 0 0 .5em;
+    }
+}
+
+@media screen and (max-width: 1680px){
+    .row > * {
+        padding: 0 0 0 .5em;
+    }
+}
+.row > * {
+    padding: 0 0 0 .5em;
+}
+
+
+@media screen and (max-width: 1280px){
+    .row {
+        margin: 0 0 -1px -.5em;
+    }
+}
+
+@media screen and (max-width: 1680px){
+    .row {
+        margin: 0 0 -1px -.5em;
+    }
+}
+.row {
+    margin: 0 0 -1px -.5em;
+}
+#about .wrapper{
+    padding-top: 3em;
+}
+#about p{
+    color: #666666;
+}
+#about .title{
+    position: relative;
+    padding: 0;
+    margin-bottom: 3em;
+}
+#about .title h1:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 100%;
+    height: 2px;
+    /*z-index: -1;*/
+    background: #eeeeee;
+
+}
+#about p{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2em;
 }
